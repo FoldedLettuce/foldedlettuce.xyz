@@ -64,10 +64,8 @@ const Index = ({ stats, topRepos }: AppProps) => {
                 <TechItem icon={SiNodeJs} name="Node.js" />
                 <TechItem icon={SiPython} name="Python" />
                 <TechItem icon={SiJavascript} name="JavaScript" />
-                <TechItem icon={SiYarn} name="Yarn" />
                 <TechItem icon={SiNextJs} name="Next.js" />
                 <TechItem icon={SiTailwindCSS} name="TailwindCSS" />
-                <TechItem icon={SiStyledComponents} name="styled-components" />
                 <TechItem icon={SiGit} name="Git" />
             </div>
 
