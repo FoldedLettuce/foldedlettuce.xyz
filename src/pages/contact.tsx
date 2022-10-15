@@ -30,6 +30,13 @@ const Talk = () => {
 
                 <div className="row-start-1 md:row-auto">
                     <ContactLink
+                        name="Quick Links"
+                        icon={<AiOutlineLink className="w-6 h-6 text-gray-400" />}
+                        link="https://ayo.so/lettuce"
+                        borderColor="hover:border-gray-400/50"
+                    />
+
+                    <ContactLink
                         name="lettuce#0001"
                         icon={<SiDiscord className="w-6 h-6 text-[#5865F2]" />}
                         link="https://discord.com/users/455862963417382923"
@@ -47,13 +54,6 @@ const Talk = () => {
                         name="liam@foldedlettuce.xyz"
                         icon={<FiMail className="w-6 h-6 text-gray-400" />}
                         link="mailto:liam@foldedlettuce.xyz"
-                        borderColor="hover:border-gray-400/50"
-                    />
-
-                    <ContactLink
-                        name="Quick Links"
-                        icon={<AiOutlineLink className="w-6 h-6 text-gray-400" />}
-                        link="https://ayo.so/lettuce"
                         borderColor="hover:border-gray-400/50"
                     />
                 </div>
