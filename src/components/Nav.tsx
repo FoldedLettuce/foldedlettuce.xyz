@@ -78,18 +78,14 @@ const Nav = () => {
 
                 <div className="flex flex-row items-center justify-center gap-2 xs:gap-4">
                     <LinkButton
-                        href={"https://github.com/cnrad"}
+                        href={"https://github.com/foldedlettuce"}
                         icon={<SiGithub className="w-6 h-6 cursor-pointer" />}
                     />
                     <LinkButton
-                        href={"https://twitter.com/notcnrad"}
+                        href={"https://twitter.com/FoldedLettuce"}
                         icon={<SiTwitter className="w-6 h-6 cursor-pointer" />}
                     />
-                    <LinkButton
-                        href={"https://linkedin.com/in/cnrad"}
-                        icon={<SiLinkedin className="w-6 h-6 cursor-pointer" />}
-                    />
-                    <LinkButton href={"mailto:hello@cnrad.dev"} icon={<FiMail className="w-6 h-6 cursor-pointer" />} />
+                    <LinkButton href={"mailto:lima@foldedlettuce.xyz"} icon={<FiMail className="w-6 h-6 cursor-pointer" />} />
                 </div>
             </motion.div>
 
@@ -142,19 +138,15 @@ const Nav = () => {
 
                             <div className="flex flex-row items-center justify-center gap-6 py-4">
                                 <LinkButton
-                                    href={"https://github.com/cnrad"}
+                                    href={"https://github.com/foldedlettuce"}
                                     icon={<SiGithub className="w-6 h-6 cursor-pointer" />}
                                 />
                                 <LinkButton
-                                    href={"https://twitter.com/notcnrad"}
+                                    href={"https://twitter.com/FoldedLettuce"}
                                     icon={<SiTwitter className="w-6 h-6 cursor-pointer" />}
                                 />
                                 <LinkButton
-                                    href={"https://linkedin.com/in/cnrad"}
-                                    icon={<SiLinkedin className="w-6 h-6 cursor-pointer" />}
-                                />
-                                <LinkButton
-                                    href={"mailto:hello@cnrad.dev"}
+                                    href={"mailto:liam@foldedlettuce.xyz"}
                                     icon={<FiMail className="w-6 h-6 cursor-pointer" />}
                                 />
                             </div>

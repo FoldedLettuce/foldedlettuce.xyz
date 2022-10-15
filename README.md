@@ -10,9 +10,11 @@
 - Uses TailwindCSS, for easy light/dark theme configuration
 
 **Redirects:**
-- https://cnrad.dev/github
-- https://cnrad.dev/twitter
-- https://cnrad.dev/linkedin
+- https://foldedlettuce.xyz/github
+- https://foldedlettuce.xyz/twitter
+- https://foldedlettuce.xyz/linkedin
 
+
+<sub>Template from [Conrad](https://github.com/cnrad/cnrad.dev)</sub>
 
 <sub>**Design heavily inspired by [Alistair](https://github.com/alii)'s [personal site](https://alistair.sh)**</sub>

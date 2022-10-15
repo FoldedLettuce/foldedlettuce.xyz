@@ -30,16 +30,15 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <>
             <Head>
                 <meta charSet="utf-8" />
-                <title>Conrad Crawford</title>
+                <title>Lettuce</title>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="viewport" content="width=device-width,initial-scale=1" />
                 <meta name="theme-color" content="#000000" />
                 <meta
                     name="keywords"
-                    content="cnrad, Conrad Crawford, Conrad, Crawford, web developer, github, typescript"
+                    content="folded, lettuce, web developer, github"
                 />
-                <meta name="description" content="Conrad Crawford - Software Engineer" />
-                <meta name="author" content="Conrad Crawford" />
+                <meta name="description" content="Lettuce" />
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
             </Head>
 

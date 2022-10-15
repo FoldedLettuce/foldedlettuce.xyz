@@ -5,17 +5,12 @@ module.exports = {
     return [
       {
         source: '/github',
-        destination: 'https://github.com/cnrad',
+        destination: 'https://github.com/foldedlettuce',
         permanent: true,
       },
       {
         source: '/twitter',
-        destination: 'https://twitter.com/notcnrad',
-        permanent: true,
-      },
-      {
-        source: '/linkedin',
-        destination: 'https://linkedin.com/in/cnrad',
+        destination: 'https://twitter.com/FoldedLettuce',
         permanent: true,
       },
       {
