@@ -25,3 +25,7 @@ a {
 .spinner {
     display: none !important;
 }
+
+div.excerpt p {
+    word-wrap: break-word;
+}
