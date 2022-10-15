@@ -24,6 +24,10 @@ import {
 import { TechItem } from "../components/TechItem";
 import RepoItem from "../components/RepoItem";
 
+interface AppProps {
+    stats: Record<string, number>;
+    topRepos: Record<any, any>;
+}
 
 const Index = ({ stats, topRepos }: AppProps) => {
     return (
@@ -64,10 +68,28 @@ const Index = ({ stats, topRepos }: AppProps) => {
                     GitHub
                 </a>
                 , so I can learn from others and showcase what I know. In total, all of my open sourced projects have
+                earnt me <span className="font-bold text-black dark:text-slate-200">{stats.stars}</span> stars on
+                GitHub, and <span className="font-bold text-black dark:text-slate-200">{stats.forks}</span> forks. Below
                 are some of my most popular repositories.
             </p>
         </motion.div>
     );
 };
 
-export default Setup;
+export async function getStaticProps() {
+    const stats = await fetch(`https://api.github-star-counter.workers.dev/user/foldedlettuce`).then(res => res.json());
+    const repos = await fetch(`https://api.github.com/users/foldedlettuce/repos?type=owner&per_page=100`).then(res =>
+        res.json()
+    );
+
+    const topRepos = repos
+        .sort((a: Record<string, any>, b: Record<string, any>) => b.stargazers_count - a.stargazers_count)
+        .slice(0, 4);
+
+    return {
+        props: { stats, topRepos },
+        revalidate: 3600,
+    };
+}
+
+export default Index;
