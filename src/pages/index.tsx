@@ -40,17 +40,14 @@ const Index = ({ stats, topRepos }: AppProps) => {
         >
             <h1 className="mt-36 font-bold text-4xl md:text-5xl mb-4">Hey, I'm Lettuce 👋</h1>
             <p className="text-gray-800 dark:text-gray-300 leading-6 tracking-wide mb-12">
-                I'm a self-taught software engineer from the United States. I'm currently pursuing full-stack web
-                development to create stunning user experiences on the front-end, and scalable and secure infrastructure
-                on the backend.
+                I'm a Developer, Customer Support Representative, Proxy Company Manager, and Tech enthusiast from the United States.
             </p>
 
             <h2 className="font-medium text-3xl mb-4">What I Do 💭</h2>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
-                I'm passionate about everything technology; from designing and developing software, to understanding how
-                the many moving parts of the internet work together, to cybersecurity, systems, programming, and so much
-                more. I strive to learn more about these things every day, and utilize my knowledge to further
-                understand <i>how</i> or <i>why</i> the technology around us works.
+                I'm passionate about everything technology. Whether it's Cybersecurity, Programming, Networking, and so much
+                more I do it all. I strive to learn more about all of these topics day, and utilize my knowledge to further
+                understand <i>how</i> or <i>why</i> the world functions.
             </p>
 
             <h2 className="font-medium text-3xl mb-4">Technologies 💻</h2>
@@ -60,6 +57,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
                 use currently.
             </p>
             <div className="w-full flex flex-wrap flex-row justify-center p-1 border border-slate-800 rounded-md bg-white/10 dark:bg-black/10 mb-12">
+                
                 <TechItem icon={SiVisualstudiocode} name="VSCode" />
                 <TechItem icon={SiNodeJs} name="Node.js" />
                 <TechItem icon={SiPython} name="Python" />
