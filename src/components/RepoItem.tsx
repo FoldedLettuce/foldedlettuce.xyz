@@ -12,7 +12,7 @@ interface RepoProps {
     description: string;
     stars: number;
     forks: number;
-    language: "JavaScript" | "Python";
+    language: "TypeScript" | "Python";
 }
 
 const RepoItem = ({ name, description, stars, forks, language }: RepoProps) => {
