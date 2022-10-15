@@ -46,7 +46,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
             </p>
 
             <h2 className="font-medium text-3xl mb-4">Home Lab</h2>
-            <image src="https://i.imgur.com/h5fMTge.jpg"></image>
+            <img src="https://i.imgur.com/h5fMTge.jpg"></img>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">
                 Equipment:
                 - 24 Port Cable Master Keystone Patch Panel
