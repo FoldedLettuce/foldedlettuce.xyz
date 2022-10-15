@@ -47,21 +47,17 @@ const Index = ({ stats, topRepos }: AppProps) => {
 
             <h2 className="font-medium text-3xl mb-4">Home Lab</h2>
             <img src="https://i.imgur.com/h5fMTge.jpg"></img>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">
-                Equipment: \n
-                - 24 Port Cable Master Keystone Patch Panel \n
-                - Unifi Switch 24 PoE \n
-                - Unifi Dream Machine Pro \n
-                - APC 1200VA UPS \n
-                - StarTech 6U Network Rack \n
-                - 3x Unifi U6 Lite Access Points \n
-                \n
-                Cabling: \n
-                - Monoprice Cat6A Patch Cables \n
-                - trueCABLE Cat6 Outdoor｜Shielded - Black \n
-                - trueCABLE Cat6 Riser｜Unshielded - White \n
-                - trueCABLE Cat6 Punch Down Keystone Jack - White \n
-            </p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">Equipment:</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- 24 Port Cable Master Keystone Patch Panel</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- Unifi Dream Machine Pro</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- APC 1200VA UPS</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- StarTech 6U Network Rack</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- 3x Unifi U6 Lite Access Points</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">Cabling:</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- Monoprice Cat6A Patch Cables</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- trueCABLE Cat6 Outdoor｜Shielded - Black</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- trueCABLE Cat6 Riser｜Unshielded - White</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- trueCABLE Cat6 Punch Down Keystone Jack - White</p>
         </motion.div>
     );
 };
