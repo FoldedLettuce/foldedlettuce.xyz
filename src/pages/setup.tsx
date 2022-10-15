@@ -42,7 +42,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
 
             <h2 className="font-medium text-3xl mb-4">Desk</h2>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
-
+COMING SOON.....
             </p>
 
             <h2 className="font-medium text-3xl mb-4">Home Lab</h2>
