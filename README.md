@@ -12,7 +12,6 @@
 **Redirects:**
 - https://foldedlettuce.xyz/github
 - https://foldedlettuce.xyz/twitter
-- https://foldedlettuce.xyz/linkedin
 
 
 <sub>Template from [Conrad](https://github.com/cnrad/cnrad.dev)</sub>
