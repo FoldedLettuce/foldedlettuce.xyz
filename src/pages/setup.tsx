@@ -45,10 +45,16 @@ const Index = ({ stats, topRepos }: AppProps) => {
             <img src="https://cdn.discordapp.com/attachments/790304111111045160/1031410044757086248/IMG_4221.jpg" className="mb-6"></img>
             <img src="https://cdn.discordapp.com/attachments/790304111111045160/1031410044367015986/IMG_4222.jpg" className="mb-6"></img>
             <img src="https://cdn.discordapp.com/attachments/790304111111045160/1031410043926626404/IMG_4223.jpg" className="mb-6"></img>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">Computer:</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">...</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Desk:</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">...</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Other:</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">...</p>
 
             <h2 className="font-medium text-3xl mb-4">Home Lab</h2>
             <img src="https://i.imgur.com/h5fMTge.jpg"></img>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">Equipment:</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Equipment:</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- 24 Port Cable Master Keystone Patch Panel</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Unifi Dream Machine Pro</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- APC 1200VA UPS</p>
