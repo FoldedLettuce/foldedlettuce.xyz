@@ -41,9 +41,10 @@ const Index = ({ stats, topRepos }: AppProps) => {
             <h1 className="mt-36 font-bold text-4xl md:text-5xl mb-4">Hey, check my setups out!</h1>
 
             <h2 className="font-medium text-3xl mb-4">Desk</h2>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-12">
-COMING SOON.....
-            </p>
+            <img src="https://cdn.discordapp.com/attachments/790304111111045160/1031410045113614417/IMG_4219.jpg"></img>
+            <img src="https://cdn.discordapp.com/attachments/790304111111045160/1031410044757086248/IMG_4221.jpg"></img>
+            <img src="https://cdn.discordapp.com/attachments/790304111111045160/1031410044367015986/IMG_4222.jpg"></img>
+            <img src="https://cdn.discordapp.com/attachments/790304111111045160/1031410043926626404/IMG_4223.jpg"></img>
 
             <h2 className="font-medium text-3xl mb-4">Home Lab</h2>
             <img src="https://i.imgur.com/h5fMTge.jpg"></img>
