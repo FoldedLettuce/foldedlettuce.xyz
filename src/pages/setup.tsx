@@ -51,10 +51,10 @@ const Index = ({ stats, topRepos }: AppProps) => {
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">...</p>
 
             <h2 className="font-medium text-3xl mb-4">Home Lab</h2>
-            <img src="https://i.imgur.com/OyxTsn6.jpg"></img>
-            <img src="https://i.imgur.com/VYMKQQD.jpg"></img>
-            <img src="https://i.imgur.com/pyPzqWA.jpg"></img>
-            <img src="https://i.imgur.com/9ter9AY.jpg"></img>
+            <img src="https://i.imgur.com/OyxTsn6.jpg" className="mb-6"></img>
+            <img src="https://i.imgur.com/VYMKQQD.jpg" className="mb-6"></img>
+            <img src="https://i.imgur.com/pyPzqWA.jpg" className="mb-6"></img>
+            <img src="https://i.imgur.com/9ter9AY.jpg" className="mb-6"></img>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Equipment:</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- UniFi Dream Machine Pro</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Rack Mount Blank Patch Panel 24-Port</p>
@@ -66,7 +66,7 @@ const Index = ({ stats, topRepos }: AppProps) => {
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- 3x UniFi U6 Lite Access Points</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- 1x UniFi UAP AC Mesh</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Unifi USW Aggregation (Not pictured)</p>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">Cabling:</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Cabling:</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- UniFi Patch Cable's</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- UniFi 10 Gbps SFP+ Direct Attach Cable</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- trueCABLE Cat6 Outdoor｜Shielded - Black</p>
