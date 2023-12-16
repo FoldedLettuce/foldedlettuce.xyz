@@ -47,21 +47,28 @@ const Index = ({ stats, topRepos }: AppProps) => {
             <img src="https://cdn.discordapp.com/attachments/790304111111045160/1031410043926626404/IMG_4223.jpg" className="mb-6"></img>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">Computer:</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">...</p>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Desk:</p>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">...</p>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Other:</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Peripherals:</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">...</p>
 
             <h2 className="font-medium text-3xl mb-4">Home Lab</h2>
-            <img src="https://i.imgur.com/h5fMTge.jpg"></img>
+            <img src="">https://i.imgur.com/OyxTsn6.jpg</img>
+            <img src="">https://i.imgur.com/VYMKQQD.jpg</img>
+            <img src="">https://i.imgur.com/pyPzqWA.jpg</img>
+            <img src="">https://i.imgur.com/9ter9AY.jpg</img>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mt-6">Equipment:</p>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- 24 Port Cable Master Keystone Patch Panel</p>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Unifi Dream Machine Pro</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- UniFi Dream Machine Pro</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Rack Mount Blank Patch Panel 24-Port</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- UniFi USW 24 PoE </p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Rack Mount Blank Patch Panel 24-Port</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- APC 1200VA UPS</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Synology DS220+</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- StarTech 6U Network Rack</p>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide mb-6">- 3x Unifi U6 Lite Access Points</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- 3x UniFi U6 Lite Access Points</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- 1x UniFi UAP AC Mesh</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Unifi USW Aggregation (Not pictured)</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">Cabling:</p>
-            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- Monoprice Cat6A Patch Cables</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- UniFi Patch Cable's</p>
+            <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- UniFi 10 Gbps SFP+ Direct Attach Cable</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- trueCABLE Cat6 Outdoor｜Shielded - Black</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- trueCABLE Cat6 Riser｜Unshielded - White</p>
             <p className="text-gray-800 dark:text-gray-300 leading-6 font-light tracking-wide">- trueCABLE Cat6 Punch Down Keystone Jack - White</p>
