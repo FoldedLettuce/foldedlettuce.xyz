@@ -2,7 +2,7 @@ import { useLanyard } from "use-lanyard";
 import { motion } from "framer-motion";
 
 const Spotify = () => {
-    const { data: user } = useLanyard("2232111284fc4db2");
+    const { data: user } = useLanyard("moroneyliam9");
 
     if (!user || !user.spotify) {
         return null;
