@@ -26,7 +26,6 @@ const Talk = () => {
             <TimeStatus />
 
             <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 mb-20">
-                <MessageComponent />
 
                 <div className="row-start-1 md:row-auto">
                     <ContactLink
@@ -37,9 +36,9 @@ const Talk = () => {
                     />
 
                     <ContactLink
-                        name="lettuce#0001"
+                        name="lettuce0"
                         icon={<SiDiscord className="w-6 h-6 text-[#5865F2]" />}
-                        link="https://discord.com/users/455862963417382923"
+                        link="https://discord.com/users/402122391406379009"
                         borderColor="hover:border-[#5865F2]/50"
                     />
 

@@ -1,4 +1,11 @@
-### **Source code for my little corner of the internet.**
+### **Source code for foldedletuce.xyz - All credit goes to [Conrad](https://github.com/cnrad/cnrad.dev) for this amazing website.**
+
+
+<sub>Template from [Conrad](https://github.com/cnrad/cnrad.dev)</sub>
+
+
+
+
 
 **Features:**
 - Uses a [React hook](https://github.com/alii/use-lanyard) for [Lanyard](https://github.com/Phineas/lanyard) to fetch what I'm currently listening to on Spotify
@@ -9,8 +16,5 @@
 **Redirects:**
 - https://foldedlettuce.xyz/github
 - https://foldedlettuce.xyz/twitter
-
-
-<sub>Template from [Conrad](https://github.com/cnrad/cnrad.dev)</sub>
 
 <sub>**Design heavily inspired by [Alistair](https://github.com/alii)'s [personal site](https://alistair.sh)**</sub>
